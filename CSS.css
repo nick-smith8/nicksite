@@ -1,0 +1,72 @@
+body {
+	background-color:#FFD493;
+	font-family:"Lucida Grande", sans-serif;
+}
+
+p{text-align:justify;line-height:1.5em;word-spacing:normal;font-size:15px;}
+/*main Menu */
+#main-menu ul{list-style-type: none;
+	margin-right:0px;
+	position: fixed;
+	left:180px;
+	top:264px;
+}
+
+#main-menu ul a{list-style-type: none;text-decoration: none;color:#5661D6;font-weight:800;}
+#main-menu li:hover{background-color:black;}
+#main-menu li{
+	margin-right:0px;
+	display:block;
+	padding:10px;
+	border-radius: 4px;
+	max-width:;
+}
+
+#front-title{color: #fff;}
+
+#main-menu{margin-left:;margin-right: auto;display:inline-block;}
+
+h4{display:inline;}
+#title{font-family:"Lucida Grande", sans-serif;margin-bottom:60px;color:#5661D6;margin-top:130px;font-size:20px;}
+#check{color:#5661D6;}
+
+
+
+#container{margin-left:auto;margin-right:auto;width:631px;}
+#container li{text-align:left;padding-bottom:15px;font-size:1.4em;}
+#container{margin-left:381px;}
+
+#width-box{width:40%;height:50px;}
+
+#around-ios{float:right;margin-top:-410px;}
+#freshmen-content{display:none;margin-bottom:10px;}
+#sophomore-content{display:none;}
+#junior-content{display:none;}
+#senior-content{display:none;}
+#sophomore-year{margin-top:-55px;}
+
+
+/*Images*/
+#webapp{padding-right: 20px;}
+
+#finish-project{float:left;padding-right: 10px;padding-top:10px;}
+#outside-project{height:350px;}
+#inside-project{float:right;padding-left:10px;padding-bottom:10px;}
+#lake{padding-left:10px;float:right;}
+#grad{float:left;padding-right:10px;padding-bottom:10px;}
+#image1{
+	position:fixed;
+	left:203px;
+	top:99px;
+	background:url("\nick1.jpg" );
+	
+	background-repeat: no-repeat;
+	background-size:100%;
+	height:157px;
+	width:143px;
+	border-radius:161px;}
+@media screen and (max-width: 1287px){
+
+	#container{margin-left:381px;}
+
+}
